@@ -1,0 +1,60 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/07/2020 17:37
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-graduation-cap:before { content: "\f100"; }
+.flaticon-book:before { content: "\f101"; }
+.flaticon-suitcase:before { content: "\f102"; }
+.flaticon-medal:before { content: "\f103"; }
+.flaticon-trophy:before { content: "\f104"; }
+.flaticon-badge:before { content: "\f105"; }
+.flaticon-camp:before { content: "\f106"; }
+.flaticon-rgb:before { content: "\f107"; }
+.flaticon-circuit-board:before { content: "\f108"; }
+.flaticon-bomberman:before { content: "\f109"; }
+    
+    $font-Flaticon-graduation-cap: "\f100";
+    $font-Flaticon-book: "\f101";
+    $font-Flaticon-suitcase: "\f102";
+    $font-Flaticon-medal: "\f103";
+    $font-Flaticon-trophy: "\f104";
+    $font-Flaticon-badge: "\f105";
+    $font-Flaticon-camp: "\f106";
+    $font-Flaticon-rgb: "\f107";
+    $font-Flaticon-circuit-board: "\f108";
+    $font-Flaticon-bomberman: "\f109";

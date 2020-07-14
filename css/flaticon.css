@@ -1,0 +1,48 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/07/2020 17:37
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon/font/Flaticon.eot");
+  src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/font/Flaticon.woff2") format("woff2"),
+       url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
+       url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-graduation-cap:before { content: "\f100"; }
+.flaticon-book:before { content: "\f101"; }
+.flaticon-suitcase:before { content: "\f102"; }
+.flaticon-medal:before { content: "\f103"; }
+.flaticon-trophy:before { content: "\f104"; }
+.flaticon-badge:before { content: "\f105"; }
+.flaticon-camp:before { content: "\f106"; }
+.flaticon-rgb:before { content: "\f107"; }
+.flaticon-circuit-board:before { content: "\f108"; }
+.flaticon-bomberman:before { content: "\f109"; }

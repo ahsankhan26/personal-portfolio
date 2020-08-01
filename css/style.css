@@ -8654,14 +8654,14 @@ h1, h2, h3, h4, h5,
 /*Particles*/
 
 /*Scroll Down Animation*/
-.box{
+.scrollDown{
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.box span {
+.scrollDown span {
   display: block;
   width: 20px;
   height: 20px;
@@ -8672,10 +8672,10 @@ h1, h2, h3, h4, h5,
   animation: animate 2s infinite; 
 }
 
-.box span:nth-child(2){
+.scrollDown span:nth-child(2){
   animation-delay: -0.2s; 
 }
-.box span:nth-child(3){
+.scrollDown span:nth-child(3){
   animation-delay: -0.4s; 
 }
 

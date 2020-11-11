@@ -2081,6 +2081,16 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
 
+#fiverr {
+  background-color: #36b772;
+  border-color: #36b772 !important;
+}
+
+#fiverr:hover {
+  background-color: #373536 !important;
+  border-color: #36b772 !important;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;

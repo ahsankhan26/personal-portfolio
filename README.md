@@ -25,8 +25,7 @@ Static website made with HTML, CSS, JS and Bootstrap
    ```
 
 ## Usage
-
-1. **Open the `index.html` file in your browser to view the site:**
+Open the `index.html` file in your browser to view the site:
    ```bash
    open index.html
    ```
